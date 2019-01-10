@@ -5,9 +5,9 @@
 #include <set>
 #include <fstream>
 #include <iomanip>
-#include "../include/gmapping/utils/stat.h"
-#include "../include/gmapping/gridfastslam/gridslamprocessor.h"
-#include "../include/gmapping/utils/point.h"
+#include "gmapping/utils/stat.h"
+#include "gmapping/gridfastslam/gridslamprocessor.h"
+#include "gmapping/utils/point.h"
 #include <omp.h>
 
 //#define MAP_CONSISTENCY_CHECK

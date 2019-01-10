@@ -8,19 +8,12 @@ catkin_package(
   LIBRARIES gridfastslam scanmatcher sensor_base sensor_range sensor_odometry utils
 )
 
-include_directories(include)
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-add_subdirectory(gridfastslam)
-add_subdirectory(scanmatcher)
-add_subdirectory(sensor)
-add_subdirectory(utils)
-
-if(0)
-  add_subdirectory(gui)
-endif()
-
-
-
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/gridfastslam)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/scanmatcher)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/sensor)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/utils)
 
 install(DIRECTORY include/
   DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}

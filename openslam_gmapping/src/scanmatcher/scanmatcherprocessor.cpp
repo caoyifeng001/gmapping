@@ -1,6 +1,6 @@
 #include <iostream>
-#include "scanmatcherprocessor.h"
-#include "eig3.h"
+#include "gmapping/scanmatcher/scanmatcherprocessor.h"
+#include "gmapping/scanmatcher/eig3.h"
 
 /*
  * 感觉这个文件是想用来替代gridfastslamprocessor.cpp的。

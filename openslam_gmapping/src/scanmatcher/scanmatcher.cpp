@@ -6,9 +6,9 @@
 #include "ros/ros.h"
 #include "tf/LinearMath/Scalar.h"
 
-#include "../include/gmapping/scanmatcher/scanmatcher.h"
-#include "../include/gmapping/sensor/sensor_range/rangereading.h"
-#include "gridlinetraversal.h"
+#include "gmapping/scanmatcher/scanmatcher.h"
+#include "gmapping/sensor/sensor_range/rangereading.h"
+#include "gmapping/scanmatcher/gridlinetraversal.h"
 //#define GENERATE_MAPS
 
 namespace GMapping {

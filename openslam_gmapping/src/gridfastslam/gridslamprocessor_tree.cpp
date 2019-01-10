@@ -4,10 +4,9 @@
 #include <map>
 #include <set>
 #include <fstream>
-//#include <gsl/gsl_blas.h>
 
-#include "../include/gmapping/utils/stat.h"
-#include "../include/gmapping/gridfastslam/gridslamprocessor.h"
+#include "gmapping/utils/stat.h"
+#include "gmapping/gridfastslam/gridslamprocessor.h"
 
 namespace GMapping {
 

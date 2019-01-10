@@ -7,13 +7,13 @@
 #include <vector>
 #include <deque>
 #include <omp.h>
-#include "../include/gmapping/particlefilter/particlefilter.h"
-#include "../include/gmapping/utils/point.h"
-#include "../include/gmapping/utils/macro_params.h"
-#include "../include/gmapping/log/sensorlog.h"
-#include "../include/gmapping/sensor/sensor_range/rangesensor.h"
-#include "../include/gmapping/sensor/sensor_range/rangereading.h"
-#include "../include/gmapping/scanmatcher/scanmatcher.h"
+#include "gmapping/particlefilter/particlefilter.h"
+#include "gmapping/utils/point.h"
+#include "gmapping/utils/macro_params.h"
+#include "gmapping/log/sensorlog.h"
+#include "gmapping/sensor/sensor_range/rangesensor.h"
+#include "gmapping/sensor/sensor_range/rangereading.h"
+#include "gmapping/scanmatcher/scanmatcher.h"
 #include "motionmodel.h"
 
 

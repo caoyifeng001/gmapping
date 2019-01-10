@@ -1,4 +1,4 @@
-#include "movement.h"
+#include "gmapping/utils/movement.h"
 #include <gmapping/utils/gvalues.h>
 
 namespace GMapping {

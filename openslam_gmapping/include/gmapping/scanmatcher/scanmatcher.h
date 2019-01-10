@@ -4,11 +4,11 @@
 #include "icp.h"
 #include "smmap.h"
 #include "eigen3/Eigen/Core"
-#include "../include/gmapping/utils/macro_params.h"
-#include "../include/gmapping/utils/stat.h"
+#include "gmapping/utils/macro_params.h"
+#include "gmapping/utils/stat.h"
 #include <iostream>
-#include "../include/gmapping/utils/gvalues.h"
-#include "../include/gmapping/sensor/sensor_range/rangereading.h"
+#include "gmapping/utils/gvalues.h"
+#include "gmapping/sensor/sensor_range/rangereading.h"
 
 #define LASER_MAXBEAMS 2048
 
